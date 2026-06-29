@@ -1,0 +1,178 @@
+{
+  "fear": {
+    "principle": "Fearlessness (Abhaya)",
+    "gita_idea": "Fear arises when we identify ourselves with the temporary body and external outcomes rather than the eternal Self.",
+    "recommendation": "Perform your duty with courage. Remember that the soul is eternal and cannot be harmed by worldly events.",
+    "chapter_reference": "Chapter 2, Verse 23",
+    "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः। न चैनं क्लेदयन्त्यापो न शोषयति मारुतः॥",
+    "translation": "Weapons cannot cut the soul, fire cannot burn it, water cannot wet it, and wind cannot dry it."
+  },
+  "anger": {
+    "principle": "Control of Anger (Krodha Nigraha)",
+    "gita_idea": "Anger clouds judgment and destroys wisdom, leading to poor decisions.",
+    "recommendation": "Pause before reacting. Observe anger without identifying yourself with it.",
+    "chapter_reference": "Chapter 2, Verses 62–63",
+    "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते। सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते॥ क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः। स्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात् प्रणश्यति॥",
+    "translation": "Thinking constantly about sense objects leads to attachment; attachment gives rise to desire; desire leads to anger. From anger comes delusion, from delusion loss of memory, from loss of memory destruction of intelligence, and from destruction of intelligence one perishes."
+  },
+  "anxiety": {
+    "principle": "Equanimity (Samatvam)",
+    "gita_idea": "Anxiety is reduced by maintaining balance in success and failure.",
+    "recommendation": "Focus on your present action instead of worrying about future outcomes.",
+    "chapter_reference": "Chapter 2, Verse 48",
+    "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय। सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते॥",
+    "translation": "Perform your duty with a balanced mind, abandoning attachment to success and failure. Such equanimity is called Yoga."
+  },
+  "stress": {
+    "principle": "Selfless Action (Nishkama Karma)",
+    "gita_idea": "Stress often comes from attachment to results instead of dedication to action.",
+    "recommendation": "Do your best with sincerity and let go of anxiety about the outcome.",
+    "chapter_reference": "Chapter 2, Verse 47",
+    "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+    "translation": "You have a right to perform your prescribed duty, but never to the fruits of your actions."
+  },
+  "sadness": {
+    "principle": "Acceptance of Impermanence",
+    "gita_idea": "Pleasure and pain are temporary. Understanding their impermanent nature develops resilience.",
+    "recommendation": "Accept difficult emotions with patience and continue performing your responsibilities.",
+    "chapter_reference": "Chapter 2, Verse 14",
+    "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः। आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत॥",
+    "translation": "Contact with the senses gives rise to heat and cold, pleasure and pain; they come and go and are temporary. Endure them patiently."
+  },
+  "grief": {
+    "principle": "Freedom from Sorrow (Shoka Tyaga)",
+    "gita_idea": "The wise understand that the soul is eternal and therefore do not grieve over the inevitable changes of life and death.",
+    "recommendation": "Accept loss with compassion and remember that life and death are natural transitions for the eternal soul.",
+    "chapter_reference": "Chapter 2, Verse 11",
+    "sanskrit": "अशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे। गतासूनगतासूंश्च नानुशोचन्ति पण्डिताः॥",
+    "translation": "You grieve for those who should not be grieved for, yet you speak words of wisdom. The wise grieve neither for the living nor for the dead."
+  },
+  "ego": {
+    "principle": "Surrender of Ego (Ahamkara Tyaga)",
+    "gita_idea": "Ego creates the illusion that we alone are the doers of all actions.",
+    "recommendation": "Perform your duties with humility and recognize yourself as an instrument of the Divine.",
+    "chapter_reference": "Chapter 3, Verse 27",
+    "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः। अहङ्कारविमूढात्मा कर्ताहमिति मन्यते॥",
+    "translation": "All actions are carried out by the modes of material nature, but one whose mind is deluded by ego thinks, 'I am the doer.'"
+  },
+  "desire": {
+    "principle": "Mastery over Desire (Kama Nigraha)",
+    "gita_idea": "Uncontrolled desire veils wisdom and keeps the mind restless.",
+    "recommendation": "Observe desires calmly and distinguish genuine needs from temporary cravings.",
+    "chapter_reference": "Chapter 3, Verse 37",
+    "sanskrit": "काम एष क्रोध एष रजोगुणसमुद्भवः। महाशनो महापाप्मा विद्ध्येनमिह वैरिणम्॥",
+    "translation": "It is desire, born of the mode of passion, which later transforms into anger. It is the great devourer and the great enemy of wisdom."
+  },
+  "attachment": {
+    "principle": "Detachment (Vairagya)",
+    "gita_idea": "Attachment to people, possessions and outcomes becomes the root of suffering.",
+    "recommendation": "Love and perform your responsibilities sincerely, but without becoming dependent on the results.",
+    "chapter_reference": "Chapter 2, Verse 71",
+    "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः। निर्ममो निरहङ्कारः स शान्तिमधिगच्छति॥",
+    "translation": "One who abandons all selfish desires, is free from possessiveness and ego, attains lasting peace."
+  },
+  "jealousy": {
+    "principle": "Equal Vision (Sama Drishti)",
+    "gita_idea": "Comparison and jealousy disappear when we recognize the same divine presence in every being.",
+    "recommendation": "Celebrate the success of others and focus on your own path of growth.",
+    "chapter_reference": "Chapter 5, Verse 18",
+    "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि। शुनि चैव श्वपाके च पण्डिताः समदर्शिनः॥",
+    "translation": "The wise see with equal vision a learned person, a cow, an elephant, a dog, and even one who eats dogs."
+  },
+  "pride": {
+    "principle": "Humility (Amanitvam)",
+    "gita_idea": "True wisdom begins with humility. Pride blinds us to learning and spiritual growth.",
+    "recommendation": "Practice gratitude for your abilities and remember that every talent is a gift to be used in service.",
+    "chapter_reference": "Chapter 13, Verse 8",
+    "sanskrit": "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम्। आचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः॥",
+    "translation": "Humility, absence of pride, non-violence, forgiveness, simplicity, service to the teacher, purity, steadiness and self-control are qualities of true knowledge."
+  },
+  "confusion": {
+    "principle": "Wisdom through Knowledge (Jnana)",
+    "gita_idea": "Confusion disappears when ignorance is destroyed by true knowledge.",
+    "recommendation": "Seek wisdom through learning, reflection and right guidance before making important decisions.",
+    "chapter_reference": "Chapter 4, Verse 42",
+    "sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः। छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत॥",
+    "translation": "Therefore, cut this doubt born of ignorance with the sword of knowledge and arise to perform your duty."
+  },
+  "frustration": {
+    "principle": "Patience and Perseverance",
+    "gita_idea": "Frustration often comes from expecting immediate results instead of trusting the process.",
+    "recommendation": "Continue performing your duty with dedication and patience. Progress comes through consistent effort.",
+    "chapter_reference": "Chapter 2, Verse 50",
+    "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते। तस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम्॥",
+    "translation": "One established in wisdom rises above both good and bad results. Therefore devote yourself to Yoga, for Yoga is excellence in action."
+  },
+  "loneliness": {
+    "principle": "Unity of All Beings",
+    "gita_idea": "The Divine dwells equally in every living being; therefore no one is truly alone.",
+    "recommendation": "Develop compassion, meaningful relationships and remember your connection with the Divine.",
+    "chapter_reference": "Chapter 6, Verse 29",
+    "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि। ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः॥",
+    "translation": "A true yogi sees the Self present in all beings and all beings existing within the Self."
+  },
+  "failure": {
+    "principle": "Duty over Outcome",
+    "gita_idea": "Failure is only an external result. Your responsibility is sincere effort, not guaranteed success.",
+    "recommendation": "Learn from every setback and continue acting with determination rather than self-doubt.",
+    "chapter_reference": "Chapter 2, Verse 47",
+    "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+    "translation": "You have the right to perform your duty, but never to the fruits of your actions."
+  },
+  "uncertainty": {
+    "principle": "Faith and Surrender (Shraddha)",
+    "gita_idea": "Uncertainty is overcome through faith in righteous action and trust in the Divine order.",
+    "recommendation": "Do what is right in the present moment and trust that the future will unfold as it should.",
+    "chapter_reference": "Chapter 4, Verse 39",
+    "sanskrit": "श्रद्धावान् लभते ज्ञानं तत्परः संयतेन्द्रियः। ज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति॥",
+    "translation": "The faithful, devoted and self-controlled attain knowledge. Having gained knowledge, they quickly attain supreme peace."
+  },
+  "comparison": {
+    "principle": "Contentment (Santosha)",
+    "gita_idea": "Comparing yourself with others distracts you from your own purpose and inner growth.",
+    "recommendation": "Measure your progress against your own past, not against someone else's success.",
+    "chapter_reference": "Chapter 3, Verse 35",
+    "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्। स्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+    "translation": "It is better to perform one's own duty imperfectly than to perfectly perform another's duty. Following another's path leads to fear."
+  },
+  "expectation": {
+    "principle": "Detachment from Results (Nishkama Karma)",
+    "gita_idea": "Expectations create disappointment when outcomes differ from our desires.",
+    "recommendation": "Focus on sincere effort rather than expecting specific rewards or recognition.",
+    "chapter_reference": "Chapter 2, Verse 47",
+    "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
+    "translation": "You have the right to perform your prescribed duty, but never to the fruits of your actions."
+  },
+  "hope": {
+    "principle": "Steadfast Faith",
+    "gita_idea": "Hope becomes meaningful when combined with faith, effort and perseverance.",
+    "recommendation": "Remain optimistic while continuing to act with dedication and patience.",
+    "chapter_reference": "Chapter 9, Verse 22",
+    "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते। तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥",
+    "translation": "Those who always worship Me with unwavering devotion, I provide what they lack and preserve what they have."
+  },
+  "gratitude": {
+    "principle": "Contentment and Devotion",
+    "gita_idea": "Gratitude purifies the heart and deepens one's connection with the Divine.",
+    "recommendation": "Appreciate every opportunity, every lesson and every blessing with humility.",
+    "chapter_reference": "Chapter 9, Verse 26",
+    "sanskrit": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति। तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥",
+    "translation": "Whoever offers Me with devotion a leaf, a flower, a fruit or water, I accept that loving offering."
+  },
+  "love": {
+    "principle": "Devotion (Bhakti)",
+    "gita_idea": "Pure love is selfless and rooted in compassion rather than attachment or possession.",
+    "recommendation": "Express love through kindness, service and selflessness instead of control or expectation.",
+    "chapter_reference": "Chapter 12, Verse 13-14",
+    "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च। निर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥ सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः। मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः॥",
+    "translation": "One who has no hatred toward any being, who is friendly, compassionate, free from possessiveness and ego, steady in happiness and distress, forgiving and devoted to Me is dear to Me."
+  },
+  "happiness": {
+    "principle": "Inner Bliss (Atmananda)",
+    "gita_idea": "True happiness comes from within through self-realization, not from external possessions or achievements.",
+    "recommendation": "Cultivate inner peace through self-discipline, gratitude and devotion rather than chasing temporary pleasures.",
+    "chapter_reference": "Chapter 5, Verse 24",
+    "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः। स योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति॥",
+    "translation": "One who finds happiness within, delight within and light within attains liberation and eternal peace."
+  }
+}
