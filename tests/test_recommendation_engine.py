@@ -23,6 +23,16 @@ class TestRecommendationEngine(unittest.TestCase):
             self.assertIn("gita_idea", r)
             self.assertIn(r["concept"], concepts)
 
+    def test_get_recommendations_falls_back_to_emotion(self):
+        """
+        Verifies that recommendations are returned for a detected emotion even
+        when the graph traversal supplies no matching conceptual nodes.
+        """
+        recs = get_recommendations(["fear"])
+        self.assertIsInstance(recs, list)
+        self.assertGreaterEqual(len(recs), 1)
+        self.assertEqual(recs[0]["concept"], "fear")
+
     def test_get_recommendations_invalid_concepts(self):
         """
         Verifies that requesting recommendations for unmapped concepts
