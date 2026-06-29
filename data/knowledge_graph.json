@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {"id": "fear", "label": "Fear", "type": "emotion"},
+    {"id": "anxiety", "label": "Anxiety", "type": "emotion"},
+    {"id": "anger", "label": "Anger", "type": "emotion"},
+    {"id": "sadness", "label": "Sadness", "type": "emotion"},
+    {"id": "confidence", "label": "Confidence", "type": "emotion"},
+    {"id": "confusion", "label": "Confusion", "type": "emotion"},
+    {"id": "attachment", "label": "Attachment", "type": "root_cause"},
+    {"id": "desire", "label": "Desire", "type": "root_cause"},
+    {"id": "expectation", "label": "Expectation", "type": "root_cause"},
+    {"id": "overthinking", "label": "Overthinking", "type": "mental_pattern"},
+    {"id": "self_doubt", "label": "Self-Doubt", "type": "mental_pattern"},
+    {"id": "steady_mind", "label": "Steady Mind", "type": "virtue"},
+    {"id": "focused_action", "label": "Focused Action", "type": "virtue"}
+  ],
+  "edges": [
+    {"source": "fear", "target": "attachment", "relation": "often_arises_from"},
+    {"source": "attachment", "target": "anxiety", "relation": "can_lead_to"},
+    {"source": "anxiety", "target": "overthinking", "relation": "triggers"},
+    
+    {"source": "anger", "target": "expectation", "relation": "stems_from"},
+    {"source": "expectation", "target": "desire", "relation": "linked_to"},
+    {"source": "desire", "target": "attachment", "relation": "fuels"},
+    
+    {"source": "sadness", "target": "attachment", "relation": "linked_to"},
+    {"source": "attachment", "target": "expectation", "relation": "leads_to"},
+    
+    {"source": "confidence", "target": "steady_mind", "relation": "reinforced_by"},
+    {"source": "steady_mind", "target": "focused_action", "relation": "leads_to"},
+    
+    {"source": "confusion", "target": "self_doubt", "relation": "aggravated_by"},
+    {"source": "self_doubt", "target": "overthinking", "relation": "leads_to"}
+  ]
+}
