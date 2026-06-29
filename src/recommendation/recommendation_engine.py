@@ -15,7 +15,7 @@ def get_recommendations(concepts: list[str]) -> list[dict]:
     if not os.path.exists(GITA_JSON_PATH):
         raise FileNotFoundError(f"Gita principles file not found at {GITA_JSON_PATH}")
         
-    with open(GITA_JSON_PATH, 'r') as f:
+    with open(GITA_JSON_PATH, 'r', encoding="utf-8") as f:
         principles_db = json.load(f)
         
     recommendations = []

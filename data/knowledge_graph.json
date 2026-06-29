@@ -1,411 +1,107 @@
 {
   "nodes": [
-    {
-      "id": "fear",
-      "label": "Fear",
-      "type": "emotion"
-    },
-    {
-      "id": "anger",
-      "label": "Anger",
-      "type": "emotion"
-    },
-    {
-      "id": "sadness",
-      "label": "Sadness",
-      "type": "emotion"
-    },
-    {
-      "id": "anxiety",
-      "label": "Anxiety",
-      "type": "emotion"
-    },
-    {
-      "id": "stress",
-      "label": "Stress",
-      "type": "emotion"
-    },
-    {
-      "id": "jealousy",
-      "label": "Jealousy",
-      "type": "emotion"
-    },
-    {
-      "id": "pride",
-      "label": "Pride",
-      "type": "emotion"
-    },
-    {
-      "id": "guilt",
-      "label": "Guilt",
-      "type": "emotion"
-    },
-    {
-      "id": "confusion",
-      "label": "Confusion",
-      "type": "emotion"
-    },
-    {
-      "id": "frustration",
-      "label": "Frustration",
-      "type": "emotion"
-    },
-    {
-      "id": "loneliness",
-      "label": "Loneliness",
-      "type": "emotion"
-    },
-    {
-      "id": "hope",
-      "label": "Hope",
-      "type": "emotion"
-    },
-    {
-      "id": "gratitude",
-      "label": "Gratitude",
-      "type": "emotion"
-    },
-    {
-      "id": "love",
-      "label": "Love",
-      "type": "emotion"
-    },
-    {
-      "id": "happiness",
-      "label": "Happiness",
-      "type": "emotion"
-    },
-    {
-      "id": "attachment",
-      "label": "Attachment",
-      "type": "root_cause"
-    },
-    {
-      "id": "ego",
-      "label": "Ego",
-      "type": "root_cause"
-    },
-    {
-      "id": "desire",
-      "label": "Desire",
-      "type": "root_cause"
-    },
-    {
-      "id": "expectation",
-      "label": "Expectation",
-      "type": "root_cause"
-    },
-    {
-      "id": "comparison",
-      "label": "Comparison",
-      "type": "root_cause"
-    },
-    {
-      "id": "loss",
-      "label": "Loss",
-      "type": "root_cause"
-    },
-    {
-      "id": "uncertainty",
-      "label": "Uncertainty",
-      "type": "root_cause"
-    },
-    {
-      "id": "failure",
-      "label": "Failure",
-      "type": "root_cause"
-    },
-    {
-      "id": "success",
-      "label": "Success",
-      "type": "root_cause"
-    },
-    {
-      "id": "ignorance",
-      "label": "Ignorance",
-      "type": "root_cause"
-    },
-    {
-      "id": "detachment",
-      "label": "Detachment",
-      "type": "principle"
-    },
-    {
-      "id": "self_control",
-      "label": "Self Control",
-      "type": "principle"
-    },
-    {
-      "id": "equanimity",
-      "label": "Equanimity",
-      "type": "principle"
-    },
-    {
-      "id": "acceptance",
-      "label": "Acceptance",
-      "type": "principle"
-    },
-    {
-      "id": "wisdom",
-      "label": "Wisdom",
-      "type": "principle"
-    },
-    {
-      "id": "clarity",
-      "label": "Clarity",
-      "type": "principle"
-    },
-    {
-      "id": "humility",
-      "label": "Humility",
-      "type": "principle"
-    },
-    {
-      "id": "contentment",
-      "label": "Contentment",
-      "type": "principle"
-    },
-    {
-      "id": "faith",
-      "label": "Faith",
-      "type": "principle"
-    },
-    {
-      "id": "selfless_action",
-      "label": "Selfless Action",
-      "type": "principle"
-    },
-    {
-      "id": "peace",
-      "label": "Peace",
-      "type": "outcome"
-    },
-    {
-      "id": "confidence",
-      "label": "Confidence",
-      "type": "outcome"
-    },
-    {
-      "id": "compassion",
-      "label": "Compassion",
-      "type": "outcome"
-    },
-    {
-      "id": "forgiveness",
-      "label": "Forgiveness",
-      "type": "outcome"
-    },
-    {
-      "id": "resilience",
-      "label": "Resilience",
-      "type": "outcome"
-    },
-    {
-      "id": "inner_strength",
-      "label": "Inner Strength",
-      "type": "outcome"
-    }
+    {"id": "fear", "label": "Fear", "type": "emotion"},
+    {"id": "anger", "label": "Anger", "type": "emotion"},
+    {"id": "sadness", "label": "Sadness", "type": "emotion"},
+    {"id": "anxiety", "label": "Anxiety", "type": "emotion"},
+    {"id": "stress", "label": "Stress", "type": "emotion"},
+    {"id": "jealousy", "label": "Jealousy", "type": "emotion"},
+    {"id": "pride", "label": "Pride", "type": "emotion"},
+    {"id": "guilt", "label": "Guilt", "type": "emotion"},
+    {"id": "confusion", "label": "Confusion", "type": "emotion"},
+    {"id": "frustration", "label": "Frustration", "type": "emotion"},
+    {"id": "loneliness", "label": "Loneliness", "type": "emotion"},
+    {"id": "hope", "label": "Hope", "type": "emotion"},
+    {"id": "gratitude", "label": "Gratitude", "type": "emotion"},
+    {"id": "love", "label": "Love", "type": "emotion"},
+    {"id": "happiness", "label": "Happiness", "type": "emotion"},
+
+    {"id": "attachment", "label": "Attachment", "type": "root_cause"},
+    {"id": "ego", "label": "Ego", "type": "root_cause"},
+    {"id": "desire", "label": "Desire", "type": "root_cause"},
+    {"id": "expectation", "label": "Expectation", "type": "root_cause"},
+    {"id": "comparison", "label": "Comparison", "type": "root_cause"},
+    {"id": "loss", "label": "Loss", "type": "root_cause"},
+    {"id": "uncertainty", "label": "Uncertainty", "type": "root_cause"},
+    {"id": "failure", "label": "Failure", "type": "root_cause"},
+    {"id": "success", "label": "Success", "type": "root_cause"},
+    {"id": "ignorance", "label": "Ignorance", "type": "root_cause"},
+
+    {"id": "detachment", "label": "Detachment", "type": "principle"},
+    {"id": "self_control", "label": "Self Control", "type": "principle"},
+    {"id": "equanimity", "label": "Equanimity", "type": "principle"},
+    {"id": "acceptance", "label": "Acceptance", "type": "principle"},
+    {"id": "wisdom", "label": "Wisdom", "type": "principle"},
+    {"id": "clarity", "label": "Clarity", "type": "principle"},
+    {"id": "humility", "label": "Humility", "type": "principle"},
+    {"id": "contentment", "label": "Contentment", "type": "principle"},
+    {"id": "faith", "label": "Faith", "type": "principle"},
+    {"id": "selfless_action", "label": "Selfless Action", "type": "principle"},
+
+    {"id": "peace", "label": "Peace", "type": "outcome"},
+    {"id": "confidence", "label": "Confidence", "type": "outcome"},
+    {"id": "compassion", "label": "Compassion", "type": "outcome"},
+    {"id": "forgiveness", "label": "Forgiveness", "type": "outcome"},
+    {"id": "resilience", "label": "Resilience", "type": "outcome"},
+    {"id": "inner_strength", "label": "Inner Strength", "type": "outcome"}
   ],
+
   "edges": [
-    {
-      "source": "fear",
-      "target": "attachment",
-      "relation": "caused_by"
-    },
-    {
-      "source": "attachment",
-      "target": "detachment",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "detachment",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "anger",
-      "target": "ego",
-      "relation": "caused_by"
-    },
-    {
-      "source": "ego",
-      "target": "humility",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "humility",
-      "target": "compassion",
-      "relation": "leads_to"
-    },
-    {
-      "source": "sadness",
-      "target": "loss",
-      "relation": "caused_by"
-    },
-    {
-      "source": "loss",
-      "target": "acceptance",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "acceptance",
-      "target": "inner_strength",
-      "relation": "leads_to"
-    },
-    {
-      "source": "anxiety",
-      "target": "uncertainty",
-      "relation": "caused_by"
-    },
-    {
-      "source": "uncertainty",
-      "target": "faith",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "faith",
-      "target": "confidence",
-      "relation": "leads_to"
-    },
-    {
-      "source": "stress",
-      "target": "expectation",
-      "relation": "caused_by"
-    },
-    {
-      "source": "expectation",
-      "target": "selfless_action",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "selfless_action",
-      "target": "resilience",
-      "relation": "leads_to"
-    },
-    {
-      "source": "jealousy",
-      "target": "comparison",
-      "relation": "caused_by"
-    },
-    {
-      "source": "comparison",
-      "target": "contentment",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "contentment",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "pride",
-      "target": "ego",
-      "relation": "caused_by"
-    },
-    {
-      "source": "ego",
-      "target": "humility",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "guilt",
-      "target": "failure",
-      "relation": "caused_by"
-    },
-    {
-      "source": "failure",
-      "target": "wisdom",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "wisdom",
-      "target": "confidence",
-      "relation": "leads_to"
-    },
-    {
-      "source": "confusion",
-      "target": "ignorance",
-      "relation": "caused_by"
-    },
-    {
-      "source": "ignorance",
-      "target": "clarity",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "clarity",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "frustration",
-      "target": "desire",
-      "relation": "caused_by"
-    },
-    {
-      "source": "desire",
-      "target": "self_control",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "self_control",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "loneliness",
-      "target": "attachment",
-      "relation": "caused_by"
-    },
-    {
-      "source": "attachment",
-      "target": "acceptance",
-      "relation": "resolved_by"
-    },
-    {
-      "source": "acceptance",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "hope",
-      "target": "faith",
-      "relation": "supported_by"
-    },
-    {
-      "source": "faith",
-      "target": "resilience",
-      "relation": "leads_to"
-    },
-    {
-      "source": "gratitude",
-      "target": "acceptance",
-      "relation": "supported_by"
-    },
-    {
-      "source": "acceptance",
-      "target": "peace",
-      "relation": "leads_to"
-    },
-    {
-      "source": "love",
-      "target": "attachment",
-      "relation": "associated_with"
-    },
-    {
-      "source": "attachment",
-      "target": "compassion",
-      "relation": "balanced_by"
-    },
-    {
-      "source": "happiness",
-      "target": "contentment",
-      "relation": "supported_by"
-    },
-    {
-      "source": "contentment",
-      "target": "peace",
-      "relation": "leads_to"
-    }
+
+    {"source":"fear","target":"attachment","relation":"caused_by"},
+    {"source":"attachment","target":"detachment","relation":"resolved_by"},
+    {"source":"detachment","target":"peace","relation":"leads_to"},
+
+    {"source":"anger","target":"ego","relation":"caused_by"},
+    {"source":"ego","target":"humility","relation":"resolved_by"},
+    {"source":"humility","target":"compassion","relation":"leads_to"},
+
+    {"source":"sadness","target":"loss","relation":"caused_by"},
+    {"source":"loss","target":"acceptance","relation":"resolved_by"},
+    {"source":"acceptance","target":"inner_strength","relation":"leads_to"},
+
+    {"source":"anxiety","target":"uncertainty","relation":"caused_by"},
+    {"source":"uncertainty","target":"faith","relation":"resolved_by"},
+    {"source":"faith","target":"confidence","relation":"leads_to"},
+
+    {"source":"stress","target":"expectation","relation":"caused_by"},
+    {"source":"expectation","target":"selfless_action","relation":"resolved_by"},
+    {"source":"selfless_action","target":"resilience","relation":"leads_to"},
+
+    {"source":"jealousy","target":"comparison","relation":"caused_by"},
+    {"source":"comparison","target":"contentment","relation":"resolved_by"},
+    {"source":"contentment","target":"peace","relation":"leads_to"},
+
+    {"source":"pride","target":"ego","relation":"caused_by"},
+    {"source":"ego","target":"humility","relation":"resolved_by"},
+
+    {"source":"guilt","target":"failure","relation":"caused_by"},
+    {"source":"failure","target":"wisdom","relation":"resolved_by"},
+    {"source":"wisdom","target":"confidence","relation":"leads_to"},
+
+    {"source":"confusion","target":"ignorance","relation":"caused_by"},
+    {"source":"ignorance","target":"clarity","relation":"resolved_by"},
+    {"source":"clarity","target":"peace","relation":"leads_to"},
+
+    {"source":"frustration","target":"desire","relation":"caused_by"},
+    {"source":"desire","target":"self_control","relation":"resolved_by"},
+    {"source":"self_control","target":"peace","relation":"leads_to"},
+
+    {"source":"loneliness","target":"attachment","relation":"caused_by"},
+    {"source":"attachment","target":"acceptance","relation":"resolved_by"},
+    {"source":"acceptance","target":"peace","relation":"leads_to"},
+
+    {"source":"hope","target":"faith","relation":"supported_by"},
+    {"source":"faith","target":"resilience","relation":"leads_to"},
+
+    {"source":"gratitude","target":"acceptance","relation":"supported_by"},
+    {"source":"acceptance","target":"peace","relation":"leads_to"},
+
+    {"source":"love","target":"attachment","relation":"associated_with"},
+    {"source":"attachment","target":"compassion","relation":"balanced_by"},
+
+    {"source":"happiness","target":"contentment","relation":"supported_by"},
+    {"source":"contentment","target":"peace","relation":"leads_to"}
+
   ]
 }

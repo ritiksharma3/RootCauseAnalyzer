@@ -10,7 +10,7 @@ def build_graph() -> nx.DiGraph:
     if not os.path.exists(GRAPH_JSON_PATH):
         raise FileNotFoundError(f"Knowledge graph file not found at {GRAPH_JSON_PATH}")
         
-    with open(GRAPH_JSON_PATH, 'r') as f:
+    with open(GRAPH_JSON_PATH, 'r', encoding="utf-8") as f:
         data = json.load(f)
         
     G = nx.DiGraph()
