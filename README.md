@@ -1,76 +1,185 @@
 # AI-powered Psychological Root Cause Analyzer
 
-An offline, explainable AI system designed as an educational and reflective tool. It analyzes a user's written feelings, predicts the dominant emotion using supervised machine learning, traverses a psychological/philosophical knowledge graph to find root causes, and recommends practical Bhagavad Gita-inspired actions.
+An Explainable AI project that analyzes a user's emotional text input, identifies the dominant emotion using Machine Learning, discovers possible psychological root causes through a Knowledge Graph, and provides reflective recommendations inspired by the Bhagavad Gita.
+
+> Educational project only.
+> This application is **NOT** intended for clinical diagnosis or mental health treatment.
 
 ---
 
-## ⚠️ Disclaimer
-This system is an **educational and reflective tool** only. It does **not** provide clinical diagnosis or medical/psychological treatment. If you are experiencing mental health challenges, please seek support from a licensed professional.
+## Features
+
+- Emotion Classification using TF-IDF + Logistic Regression
+- Explainable AI Pipeline
+- Knowledge Graph Traversal
+- Root Cause Analysis
+- Rule-based Recommendation Engine
+- Bhagavad Gita Inspired Principles
+- Interactive Streamlit Dashboard
+- Fully Offline (No APIs)
+- Modular Python Architecture
 
 ---
 
-## Architecture Overview
-The project is divided into four distinct modules:
-1. **NLP / Emotion Classifier**: Preprocesses text and uses TF-IDF + Logistic Regression to classify the text into one of six emotions (`fear`, `anxiety`, `anger`, `sadness`, `confidence`, `confusion`).
-2. **Knowledge Graph**: Builds a directed graph mapping emotions to psychological concepts (root causes and mental patterns) and performs Breadth-First Search (BFS) to retrieve reasoning paths.
-3. **Recommendation Engine & Explanation**: Matches concepts to Gita principles and generates a readable explanation.
-4. **Streamlit UI**: Coordinates inputs, displays metrics, visualizes the reasoning graph, and outputs explanations.
+## Technology Stack
+
+- Python 3.11+
+- Streamlit
+- Scikit-learn
+- NetworkX
+- Pandas
+- NumPy
+- Joblib
+- Matplotlib
+
+---
+
+## Project Architecture
+
+User Input
+
+↓
+
+Text Preprocessing
+
+↓
+
+TF-IDF Vectorization
+
+↓
+
+Logistic Regression Emotion Classifier
+
+↓
+
+Knowledge Graph Traversal
+
+↓
+
+Root Cause Detection
+
+↓
+
+Recommendation Engine
+
+↓
+
+Explainability Module
+
+↓
+
+Streamlit Dashboard
 
 ---
 
 ## Folder Structure
-```
-psych_root_cause_analyzer/
-|-- app.py
-|-- requirements.txt
-|-- README.md
-|-- data/
-|   |-- emotion_dataset.csv
-|   |-- knowledge_graph.json
-|   |-- gita_principles.json
-|-- models/
-|   |-- tfidf_vectorizer.pkl
-|   |-- emotion_classifier.pkl
-|-- src/
-|   |-- __init__.py
-|   |-- config.py
-|   |-- nlp/
-|   |   |-- preprocess.py
-|   |-- ml/
-|   |   |-- train_model.py
-|   |   |-- predict_emotion.py
-|   |-- graph/
-|   |   |-- graph_builder.py
-|   |   |-- graph_traversal.py
-|   |-- recommendation/
-|   |   |-- recommendation_engine.py
-|   |-- explainability/
-|   |   |-- explanation_generator.py
-|   |-- ui/
-|       |-- display_graph.py
-|       |-- display_results.py
-|-- tests/
-    |-- test_predict_emotion.py
-    |-- test_graph_traversal.py
-    |-- test_recommendation_engine.py
+
+```text
+src/
+ml/
+graph/
+recommendation/
+explainability/
+ui/
 ```
 
 ---
 
-## Setup & Running
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Train the model:
-   ```bash
-   python src/ml/train_model.py
-   ```
-3. Run unit tests:
-   ```bash
-   pytest
-   ```
-4. Launch the Streamlit application:
-   ```bash
-   streamlit run app.py
-   ```
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/username/psychological-root-cause-analyzer.git
+
+cd psychological-root-cause-analyzer
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Workflow
+
+1. Enter emotional text.
+2. Detect dominant emotion.
+3. Traverse Knowledge Graph.
+4. Discover possible root causes.
+5. Generate recommendations.
+6. Display explainable reasoning.
+
+---
+
+## Team Structure
+
+### Member 1
+
+Machine Learning
+
+### Member 2
+
+Knowledge Graph
+
+### Member 3
+
+Recommendation Engine
+
+### Member 4
+
+Streamlit Integration
+
+---
+
+## Future Improvements
+
+- BERT-based emotion classification
+- Multi-language support
+- Interactive graph visualization
+- Better explanation generation
+- Larger emotion dataset
+
+---
+
+## Disclaimer
+
+This project is intended for educational and research purposes only.
+
+It should never replace professional psychological or medical advice.
+
+---
+
+## License
+
+MIT License
